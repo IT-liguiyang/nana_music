@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 180px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 30px;
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+
+    &__iconfont {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background-color: #99ccff;
+    }
+
+    &__text {
+      display: block;
+      margin-top: 10px;
+      font-size: 28px;
+    }
+  }
+
+  .iconfont {
+    font-size: 50px;
+  }
+}

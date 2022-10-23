@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
 export default definePageConfig({
-  navigationBarTitleText: '首页'
-})
+  navigationBarTitleText: 'nana云音乐',
+  navigationBarBackgroundColor: '#99ccff'
+});
